@@ -3,8 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.13 (GPA_calculator)" />
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="5af22879-096f-4500-a5e4-35833622a755" />
-  </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (GPA_calculator)" project-jdk-type="Python SDK" />
 </project>
