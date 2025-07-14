@@ -6,22 +6,22 @@ def get_numerical_grade(grade_percent, tab_amount):
     print(f"{tab_amount}i'm inside ! get_numerical_grade !  now.")
     if grade_percent >= 94:
         print(f'{tab_amount}you got a \t A')
-        print(f'{tab_amount}\tgood job !')
+        #print(f'{tab_amount}\tgood job !')
         print(f"{tab_amount}A -> 4.0")
         return 4.0
     elif grade_percent >= 90:
         print(f'{tab_amount}you got a \t A-')
-        print(f'{tab_amount}\tgood job !')
+        #print(f'{tab_amount}\tgood job !')
         print(f"{tab_amount}A- -> 3.7")
         return 3.7
     elif grade_percent >= 87:
         print(f'{tab_amount}you got a \t B+')
-        print(f'{tab_amount}\tgood job !')
+        #print(f'{tab_amount}\tgood job !')
         print(f"{tab_amount}B -> 3.3")
         return 3.3
     elif grade_percent >= 84:
         print(f'{tab_amount}you got a \t B')
-        print(f'{tab_amount}\tgood job !')
+        #print(f'{tab_amount}\tgood job !')
         print(f"{tab_amount}B -> 3.0")
         return 3.0
     elif grade_percent >= 80:

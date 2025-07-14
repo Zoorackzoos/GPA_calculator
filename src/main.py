@@ -31,8 +31,6 @@ def main():
     :return:
     """
 
-    print_count = 0
-
     total_credit_points = 0
     total_credit_hours = 0
 
@@ -44,25 +42,15 @@ def main():
     """
 
     for dictionary in spring_2025__master_var__lectures:
-        print(print_count)
-        print_count += 1
-
-        print(f"\tdictionary :")
-        print(f"\t\t{dictionary}")
-        print()
-        print(f"\tdictionary[\"informal name\"] = {dictionary["informal name"]}")
-        print(f"\tdictionary[\"final grade\"] = {dictionary["final grade"]}")
-        print(f"\t\ti'm gonna get your letter grade so i can calculate your GPA.")
-        #print(f"\t\t i don't strictly have to do this but it seems easier :-/ ")
-        final_grade_as_numerical_grade = get_numerical_grade(dictionary["final grade"], '\t\t\t')
-        print(f"\t\tfinal_grade_as_numerical_grade = {final_grade_as_numerical_grade}")
-        print(f"\tdictionary[\"credits\"] = {dictionary["credits"]}")
-        print()
-        print(f"\tgrade point calculation time!")
-        print(f"\t\t(numerical grade) * (credit hours) = (grade points)")
-        print(f"\t\t{final_grade_as_numerical_grade} * {dictionary['credits']} = (grade points)")
-        print(f"grade points = {final_grade_as_numerical_grade * dictionary['credits']}")
-        print()
+        print(f"\t{dictionary}")
+        final_grade = dictionary["final grade"]
+        print(f"\t\tfinal grade = {final_grade}")
+        numerical_grade = get_numerical_grade(grade_percent=final_grade,tab_amount='\t\t\t')
+        print(f"\t\tnumerical grade = {numerical_grade}")
+        print(f"\t\tcredit hours = {dictionary['credits']}")
+        print(f"\t\tgrade \t* \tcredits\t = total grade points")
+        print(f"\t\t{numerical_grade} \t*\t {dictionary['credits']}\t = {numerical_grade * dictionary['credits']}")
+    print()
 
 if __name__ == "__main__":
     main()
