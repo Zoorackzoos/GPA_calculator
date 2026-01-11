@@ -1,8 +1,12 @@
 
 
 
-
 def get_numerical_grade(grade_percent, tab_amount):
+    """
+    this turns a percent grade. which is a number.
+    into a letter. which is a char
+    """
+
     print(f"{tab_amount}i'm inside ! get_numerical_grade !  now.")
     if grade_percent >= 94:
         print(f'{tab_amount}you got a \t A')

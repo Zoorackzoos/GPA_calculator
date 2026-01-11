@@ -5,6 +5,9 @@ from src.main import GPA_calculator
 
 
 class MasterTesterGPACalculator(unittest.TestCase):
+    """
+    this is a test case class.
+    """
 
     """
     anthro_lecture = \

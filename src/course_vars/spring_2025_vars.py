@@ -1,5 +1,8 @@
 
 """
+i used to call this "spring_2025_class_vars" but that's kind've confusing.
+it's not a class
+
 Course	    Class Number	Days	Time	        Location	    Credits	Instructor	            Grading Basis
 ANTH242001  4463	        TR	    11:00AM12:15PM	HAH-112CITY	    3	    Sefczek	                GRD
 ANTH242L005 4469	        W	    08:30AM10:15AM	OLDH-807CITY	1	    Sefczek	                GRD
